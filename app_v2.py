@@ -293,7 +293,7 @@ def send_whatsapp(to, text):
 # ---------- Flask Routes ----------
 @app.route("/")
 def home():
-    return "QuickFix Bot V2 - Sheet Based - Running Free $0 - No Code Edit Needed"
+    return "Welcome to QuickFix Bot V2"
 
 
 @app.route("/webhook", methods=["GET"])
